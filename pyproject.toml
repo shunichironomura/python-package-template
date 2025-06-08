@@ -26,7 +26,6 @@ dev = [
 ruff = ["ruff>=0.9.9"]
 typing = [
     "mypy>=1.16.0",
-    "pyright>=1.1.401",
     { include-group = "test" }, # For type checking test code
 ]
 test = [

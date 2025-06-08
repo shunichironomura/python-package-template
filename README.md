@@ -5,7 +5,7 @@ This is a template repository for Python package development.
 
 - [uv](https://docs.astral.sh/uv/) for Python project management.
 - [Ruff](https://docs.astral.sh/ruff/) for linting and formatting.
-- [mypy](https://mypy.readthedocs.io/en/stable/) and [pyright](https://microsoft.github.io/pyright) for type checking.
+- [mypy](https://mypy.readthedocs.io/en/stable/) for type checking.
 - [pytest](https://docs.pytest.org/en/stable/) for testing.
 - [pre-commit](https://pre-commit.com/) for pre-commit hooks.
 - GitHub Actions for continuous integration.
