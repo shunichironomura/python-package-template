@@ -127,18 +127,18 @@ requires-dist = [{ name = "typing-extensions", specifier = ">=4.14.0" }]
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "mypy", specifier = ">=1.15.0" },
-    { name = "pre-commit", specifier = ">=4.1.0" },
-    { name = "pyright", specifier = ">=1.1.396" },
-    { name = "pytest", specifier = ">=8.3.5" },
+    { name = "mypy", specifier = ">=1.16.0" },
+    { name = "pre-commit", specifier = ">=4.2.0" },
+    { name = "pyright", specifier = ">=1.1.401" },
+    { name = "pytest", specifier = ">=8.4.0" },
     { name = "ruff", specifier = ">=0.9.9" },
 ]
 ruff = [{ name = "ruff", specifier = ">=0.9.9" }]
-test = [{ name = "pytest", specifier = ">=8.3.5" }]
+test = [{ name = "pytest", specifier = ">=8.4.0" }]
 typing = [
-    { name = "mypy", specifier = ">=1.15.0" },
-    { name = "pyright", specifier = ">=1.1.396" },
-    { name = "pytest", specifier = ">=8.3.5" },
+    { name = "mypy", specifier = ">=1.16.0" },
+    { name = "pyright", specifier = ">=1.1.401" },
+    { name = "pytest", specifier = ">=8.4.0" },
 ]
 
 [[package]]

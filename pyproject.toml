@@ -18,20 +18,20 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
-    "pre-commit>=4.1.0",
+    "pre-commit>=4.2.0",
     { include-group = "ruff" },
     { include-group = "typing" },
     { include-group = "test" },
 ]
 ruff = ["ruff>=0.9.9"]
 typing = [
-    "mypy>=1.15.0",
-    "pyright>=1.1.396",
+    "mypy>=1.16.0",
+    "pyright>=1.1.401",
     { include-group = "test" }, # For type checking test code
 ]
 test = [
-    "pytest>=8.3.5",
-    # "coverage>=7.6.12", # If you use coverage
+    "pytest>=8.4.0",
+    # "coverage>=7.8.2", # If you use coverage
 ]
 
 [tool.pytest.ini_options]
