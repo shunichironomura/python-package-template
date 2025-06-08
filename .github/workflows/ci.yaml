@@ -80,7 +80,7 @@ jobs:
           python-version-file: .python-version
 
       - name: Install the project
-        run: uv sync --no-dev --group testing
+        run: uv sync --no-dev --group test
 
       - name: Run pytest
         run: uv run -- pytest # without coverage
