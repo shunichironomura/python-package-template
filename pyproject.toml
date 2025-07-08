@@ -13,8 +13,8 @@ dependencies = ["typing-extensions>=4.14.0"]
 package-name-goes-here = "package_name_goes_here:main"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["uv_build>=0.7.19,<0.8.0"]
+build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
@@ -23,13 +23,13 @@ dev = [
     { include-group = "typing" },
     { include-group = "test" },
 ]
-ruff = ["ruff>=0.9.9"]
+ruff = ["ruff>=0.11.13"]
 typing = [
-    "mypy>=1.16.0",
+    "mypy>=1.16.1",
     { include-group = "test" }, # For type checking test code
 ]
 test = [
-    "pytest>=8.4.0",
+    "pytest>=8.4.1",
     # "coverage>=7.8.2", # If you use coverage
 ]
 

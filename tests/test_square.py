@@ -1,5 +1,7 @@
 import pytest
 
+from package_name_goes_here import square
+
 
 @pytest.mark.parametrize(
     ("x", "expected"),
@@ -11,5 +13,4 @@ import pytest
     ],
 )
 def test_square(x: int, expected: int) -> None:
-    from package_name_goes_here import square
     assert square(x) == expected
