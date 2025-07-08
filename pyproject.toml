@@ -23,13 +23,13 @@ dev = [
     { include-group = "typing" },
     { include-group = "test" },
 ]
-ruff = ["ruff>=0.9.9"]
+ruff = ["ruff>=0.11.13"]
 typing = [
-    "mypy>=1.16.0",
+    "mypy>=1.16.1",
     { include-group = "test" }, # For type checking test code
 ]
 test = [
-    "pytest>=8.4.0",
+    "pytest>=8.4.1",
     # "coverage>=7.8.2", # If you use coverage
 ]
 
