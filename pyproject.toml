@@ -13,7 +13,7 @@ dependencies = ["typing-extensions>=4.14.0"]
 package-name-goes-here = "package_name_goes_here:main"
 
 [build-system]
-requires = ["uv_build>=0.7.19,<0.8.0"]
+requires = ["uv_build>=0.8.0,<0.9"]
 build-backend = "uv_build"
 
 [dependency-groups]
