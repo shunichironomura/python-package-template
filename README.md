@@ -1,11 +1,12 @@
 # python-package-template
+
 This is a template repository for Python package development.
 
 ## Features
 
 - [uv](https://docs.astral.sh/uv/) for Python project management.
 - [Ruff](https://docs.astral.sh/ruff/) for linting and formatting.
-- [mypy](https://mypy.readthedocs.io/en/stable/) for type checking.
+- [mypy](https://mypy.readthedocs.io/en/stable/), [basedpyright](https://docs.basedpyright.com/latest/), and [ty](https://docs.astral.sh/ty/) for type checking.
 - [pytest](https://docs.pytest.org/en/stable/) for testing.
 - [pre-commit](https://pre-commit.com/) for pre-commit hooks.
 - GitHub Actions for continuous integration.
