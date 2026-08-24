@@ -56,7 +56,10 @@ addopts = [
   "--verbose",
   "-ra",  # show extra test summary info for all tests except passed tests
 ]
+filterwarnings = ["error"]
 minversion = "9.0"
+required_plugins = []
+strict = true
 testpaths = ["tests"]
 
 [tool.ruff]
