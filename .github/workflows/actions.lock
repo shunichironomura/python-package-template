@@ -7,7 +7,7 @@ workflows:
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-python@v7.1.0'
         - 'astral-sh/setup-uv@v10.3.2'
-        - 'rvben/rumdl@v0.3.0'
+        - 'rvben/rumdl@v0.3.1'
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
@@ -24,8 +24,8 @@ dependencies:
         commit: 'sha1-07a047e608db84b3d8c06cd9a7c7dcc9c355c18e'
         owner_id: 115962839
         repo_id: 846733598
-    'rvben/rumdl@v0.3.0':
-        ref: 'v0.3.0'
-        commit: 'sha1-19006897519812a2fdc508314b34738e5c281233'
+    'rvben/rumdl@v0.3.1':
+        ref: 'v0.3.1'
+        commit: 'sha1-9b8161e6124f1bde9d5c3dd0c9a36ceb559e1f53'
         owner_id: 5196381
         repo_id: 940812004
